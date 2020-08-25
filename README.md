@@ -1,3 +1,5 @@
 # pong_rafwedz
-Simple game created for the entry task for Arcade IT Tournament.
-[I'm an inline-style link]()
+Simple game created for the entry task for Arcade IT Tournament.<br/>
+<br/>
+<br/>
+![alt text](https://github.com/rwedzony/pong_rafwedz/blob/master/pong_images/pong_rafwedz_demo.png) 
