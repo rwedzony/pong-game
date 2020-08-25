@@ -36,7 +36,15 @@ ball.color("white")
 ball.penup()
 ball.goto(0,0)
 ball.dx=2
-ball.dy=-2
+ball.dy=2
+
+def check_coll_with_padd_a():
+    if paddle_a.xcor()+20 == ball.xcor() and ball.ycor()<=paddle_a.ycor()+50 and ball.ycor()>=paddle_a.ycor()-50 :
+        ball.dx *=-1;
+
+def check_coll_with_padd_b():
+    if paddle_b.xcor()-20 == ball.xcor() and ball.ycor()<=paddle_b.ycor()+50 and ball.ycor()>=paddle_b.ycor()-50 :
+        ball.dx *=-1;
 
 
 #Functions
@@ -76,8 +84,8 @@ wn.onkeypress(paddle_b_down, "Down")
 while True:
     wn.update();
     time.sleep(0.01)
-   # ball.setx(ball.xcor()+ball.dx)
-   # ball.sety(ball.ycor()+ball.dy)
+    ball.setx(ball.xcor()+ball.dx)
+    ball.sety(ball.ycor()+ball.dy)
 
     #borderchecking
     if ball.ycor() > 290:
@@ -95,3 +103,5 @@ while True:
 
     #Paddle and ball collisions
     #Paddle a collisions
+    check_coll_with_padd_a()
+    check_coll_with_padd_b()
