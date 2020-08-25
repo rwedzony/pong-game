@@ -70,15 +70,12 @@ def paddle_b_down():
     y -= 20
     paddle_b.sety(y)
 
-
 #Keyboard binding
 wn.listen()
 wn.onkeypress(paddle_a_up, "w")
 wn.onkeypress(paddle_a_down, "s")
 wn.onkeypress(paddle_b_up, "Up")
 wn.onkeypress(paddle_b_down, "Down")
-
-
 
 
 while True:
