@@ -45,8 +45,7 @@ def check_coll_with_padd_a():
 def check_coll_with_padd_b():
     if paddle_b.xcor()-20 == ball.xcor() and ball.ycor()<=paddle_b.ycor()+50 and ball.ycor()>=paddle_b.ycor()-50 :
         ball.dx *=-1;
-
-
+        
 #Functions
 def paddle_a_up():
     y=paddle_a.ycor()
