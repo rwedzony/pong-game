@@ -1,4 +1,6 @@
 # Pong Game
+![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
+<br>
 Simple pong game created for educational purposes.<br/>
 <br/>
 <br/>
