@@ -9,3 +9,5 @@ Simple pong game created for educational purposes.<br/>
 <br/>
 
 ![alt text](https://github.com/rwedzony/pong_rafwedz/blob/master/pong_images/pong_rafwedz_demo.png) 
+Todo
+1.Add Tests
